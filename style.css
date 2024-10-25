@@ -25,6 +25,9 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+.navbar-brand {
+    position: center;
+}
 
 /* spacing on all sections */
 /* #about, #services, #portfolio, #contact {
