@@ -6,16 +6,18 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('fashion.jpg');
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
     background-size:cover;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero_desc {
     font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 .hero-text {
     text-align: center;
@@ -23,10 +25,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
-}
-.navbar-brand {
-    position: center;
+    color: rgb(254, 36, 73);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* spacing on all sections */
@@ -51,6 +51,7 @@
     font-size: 36px;
     text-align: center;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 .card-title {
     text-align: center;
@@ -66,6 +67,7 @@
 .social-icons {
     font-size: 36px;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
     color: #008000;
@@ -77,30 +79,80 @@
 #footer {
     background-color: #808080;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
-#mysearch:focus + .input-group-addon {
-	z-index: 10;
+.col-lg-8{
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#search-btn:hover {
-	cursor: pointer;
-	/*color: gold;*/
-	background-color: #ffc107;
+.text-center{
+    font-family: 'Times New Roman', Times, serif;
+    content: normal;
+    width: 30cm;
+    height: 2cm;
 }
-.input-group {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 60%;
+
+.pepe{
+    color: #000000;
+}
+
+.container{
+    margin: 0cm;
 }
 
 .containr{
-    background-color: rgb(186, 150, 108);
+    background-color: aqua;
 }
 
-/*navbar*/
+.card-body{
+    background-color: antiquewhite;
+    outline:#808080;
+    position: flex;
+}
 
+.nnn{
+    justify-content: center;
+    margin-left: 2cm;
+    margin-top: 1cm;
+}
 
+.col-lg-6{
+  margin-top: 2cm;
+}
 
+body {
+    font-family: Arial, sans-serif;
+}
 
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.collapse-navbar-collapse{
+    font-style: bold;
+    color: #000000;
+    font-variant: normal;
+}
+
+.col-lg-4 img {
+    padding-left: 10px;
+}
